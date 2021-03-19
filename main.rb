@@ -8,4 +8,4 @@ my_board = Chessboard.new
 
 target = [4, 3]
 
-p my_board.knight_moves(my_knight, target)
+print my_board.shortest_trail(my_knight, target)

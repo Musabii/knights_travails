@@ -23,7 +23,7 @@ class Chessboard
     graph
   end
 
-  def knight_moves(piece, destination)
+  def shortest_trail(piece, destination)
     graph = possible_paths_graph(piece)
     visited = [], to_visit = [], prev = []
     visited << graph[piece.position]
